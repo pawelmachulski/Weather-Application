@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<VBox spacing="5" xmlns:fx="http://javafx.com/fxml" fx:controller="com.pm.controler.controler">
+    <Label fx:id="locat" text="Lokalizacja"/>
+    <ImageView fx:id="image" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="sunny.jpg"> </Image>
+        </image>
+    </ImageView>
+    <Label fx:id="temperatureC" text="Srednia temperatura w C: "/>
+    <Label fx:id="temperatureF" text="Srednia temperatura w F: "/>
+    <Label fx:id="wind" text="Prędkość wiatru w km/h: "/>
+    <Label fx:id="temperatureFeelslike" text="Temperatura odczuwalna"/>
+    <Label fx:id="pressure" text="Cisnienie"/>
+
+
+</VBox>
